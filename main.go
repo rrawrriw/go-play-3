@@ -44,6 +44,8 @@ func main() {
 		coffeeShop.add(hero)
 	}
 
+	time.Sleep(2 * time.Second)
+
 	coffeeShop.open()
 }
 
